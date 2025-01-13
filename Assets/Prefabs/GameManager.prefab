@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2513750535435004451
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5896575617252934911}
+  - component: {fileID: 4047945459316298821}
+  m_Layer: 1
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5896575617252934911
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2513750535435004451}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.8147306, y: 15.04306, z: -46.290417}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4047945459316298821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2513750535435004451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 032012e31415c1845a5eee0295995573, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelPrefabs:
+  - {fileID: 24212878727314891, guid: 9677cd3cca737b440b8310d72f1654e0, type: 3}
+  - {fileID: 5288185373473410691, guid: c166af17dd5994146b79804faa4cbfb4, type: 3}
+  - {fileID: 5288185373473410691, guid: 2f675f90e83cdf248b3c3af4526c2231, type: 3}
+  - {fileID: 5288185373473410691, guid: e8317d04f64aed746a8097178130044e, type: 3}
+  - {fileID: 5218293395528417815, guid: a3a1fd37822722e4b8568978c154a0b4, type: 3}
+  - {fileID: 24212878727314891, guid: 92ca8dee5dd2454468342d672dfd9091, type: 3}
+  - {fileID: 24212878727314891, guid: 1c187f86aa57fe2449902cdf5f41f9dc, type: 3}
+  - {fileID: 24212878727314891, guid: bbe95b7100b1d9c45adfc7824440c9de, type: 3}
+  - {fileID: 24212878727314891, guid: 9357db8eaaf600141b668cc33e959f67, type: 3}
+  - {fileID: 24212878727314891, guid: 2dfee0621b1b9c94a868f22358230a2a, type: 3}
+  - {fileID: 24212878727314891, guid: f6a37e02d80f3004daff58d85660a0f1, type: 3}
+  - {fileID: 6616416624229606638, guid: e56874c1c6710d1488c1a5752ce37592, type: 3}
+  - {fileID: 6616416624229606638, guid: 32981160adacc9c448efe9e91c2b20f2, type: 3}
+  - {fileID: 6616416624229606638, guid: 98b32fa6aaac7e14bab9372da623d4c1, type: 3}
+  - {fileID: 6616416624229606638, guid: eb96f6d5e7b2996439e53e38bbd606f1, type: 3}
+  - {fileID: 6616416624229606638, guid: e89fc1411c8d7d947829012f2d6e2ce8, type: 3}
+  - {fileID: 6616416624229606638, guid: e9bd869808569be4782aef7f752fa72a, type: 3}
+  - {fileID: 6616416624229606638, guid: 87c5fb571cae85945a75398c250fd944, type: 3}
+  - {fileID: 6616416624229606638, guid: 3f2c992c4ee026746a5f6c6d769b3365, type: 3}
+  - {fileID: 6616416624229606638, guid: 9f953052ea3e2be4ba9d073a266710b9, type: 3}
+  - {fileID: 24212878727314891, guid: af9ace82f7290a94c8c9b921f2714043, type: 3}
+  - {fileID: 24212878727314891, guid: e4b0895377d4048489bdd7c4d1b1a0a7, type: 3}
+  OnEndGame:
+    m_PersistentCalls:
+      m_Calls: []
+  Balls: []
